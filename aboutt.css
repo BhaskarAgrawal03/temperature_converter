@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+} */
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    height: 60px;
+    width: 70vw;
+    margin: auto;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display links in a row */
+    justify-content: center; /* Center the links */
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    margin: 10 15px; /* Add some spacing between the links */
+}
+
+.navbar ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757; /* Change background on hover */
+    border-radius: 5px;
+}
+
+.container{
+    margin: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-color: aqua;
+}
