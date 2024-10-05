@@ -17,7 +17,7 @@ body{
     background-color: #333;
     padding: 15px;
     height: 60px;
-    width: 70vw;
+    width: 100vw;
     margin: auto;
     gap: 50px;
     display: flex;
@@ -50,7 +50,6 @@ body{
     background-color: #575757; /* Change background on hover */
     border-radius: 5px;
 }
-
 .container{
     display: flex;
     justify-content: center;
